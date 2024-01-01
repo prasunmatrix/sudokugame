@@ -114,7 +114,7 @@ class Member extends REST_Controller
           $data['response'] = $userdata;
 
           $this->response($data, REST_Controller::HTTP_OK);
-            
+          //echo json_encode($data, REST_Controller::HTTP_OK);  
         }                
       }
     }
